@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern, fully responsive website built with HTML5 and CSS3 showcasing professional web development practices.">
+    <title>Responsive Web Project | Home</title>
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation Section -->
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">BrandName</a>
+            </div>
+            <nav class="main-nav" aria-label="Main Navigation">
+                <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="sr-only">Menu</span>
+                    ☰
+                </button>
+                <ul id="nav-menu" class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main id="main-content">
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-content">
+                <h1>Building Modern & Responsive Web Experiences</h1>
+                <p>Crafted with semantic HTML5, advanced CSS3 styling, and a mobile-first approach to ensure optimal performance across all viewports.</p>
+                <a href="#services" class="btn btn-primary">Explore Services</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>About Our Project</h2>
+                    <p>This platform demonstrates best practices in responsive design, cross-browser compatibility, and clean code architecture. Every layout adapts dynamically from handheld mobile displays to large desktop monitors.</p>
+                </div>
+                <div class="about-image">
+                    <!-- Replace with your project image or placeholder -->
+                    <div class="image-placeholder" aria-label="Placeholder for about section illustration">Responsive Layout Illustration</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services / Features Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2>Our Core Features</h2>
+                <div class="services-grid">
+                    <article class="service-card">
+                        <h3>Semantic HTML5</h3>
+                        <p>Built using meaningful tags like &lt;header&gt;, &lt;nav&gt;, and &lt;article&gt; to enhance screen reader accessibility and search engine optimization.</p>
+                    </article>
+                    <article class="service-card">
+                        <h3>Responsive CSS3</h3>
+                        <p>Utilizes modern layouts such as Flexbox and CSS Grid combined with media queries for seamless scaling across devices.</p>
+                    </article>
+                    <article class="service-card">
+                        <h3>Optimized Performance</h3>
+                        <p>Lightweight code structure ensuring fast loading speeds, clean assets, and smooth user interactions.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section container">
+            <h2>Get In Touch</h2>
+            <p>Have questions or want to collaborate? Send us a message below.</p>
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Responsive Web Project. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
